@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Star Guardian - Outil de Gestion de Données Satellite</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- <div class="satellite-container">
+        <img src="Satellites.png" class="satellite floating" style="top: 10%; left: 5%;">
+        <img src="Satellites.png" class="satellite floating" style="top: 40%; right: 10%;">
+        <img src="Satellites.png" class="satellite floating" style="bottom: 15%; left: 30%;">
+    </div> -->
+    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="icon.ico" alt="Star Guardian Logo" height="40" class="me-2">
+                Star Guardian
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Fonctionnalités</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#screenshots">Captures</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container text-center">
+            <img src="icon.ico" alt="Star Guardian Logo" class="hero-logo">
+            <h1 class="hero-title">Protégez vos satellites avec Star Guardian</h1>
+            <p class="hero-subtitle">Un logiciel avancé pour éviter les collisions spatiales.</p>
+            
+            <a href="StarGuardian.exe" class="btn btn-download btn-lg mt-4" download>
+                🚀 Télécharger Star Guardian
+            </a>
+    
+            <p class="mt-3">
+                <a href="Guide_Utilisateur_StarGuardian.pdf" class="hero-doc" download>📖 Lire la documentation</a>
+            </p>
+        </div>
+    </header>
+    
+
+    <!-- Fonctionnalités -->
+    <section id="features" class="container my-5">
+        <h2 class="text-center">🚀 Fonctionnalités principales</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-4">
+                <h4>📂 Tri automatique des fichiers</h4>
+                <p>Organisez vos données par satellite en un clic.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>📊 Génération de rapports Excel</h4>
+                <p>Convertissez les alertes en fichiers Excel prêts à l’analyse.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>⚙️ Personnalisation avancée</h4>
+                <p>Choisissez le format de sortie et automatisez les mises à jour.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Captures d'écran -->
+    <section id="screenshots" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">🖥️ Captures d’écran</h2>
+            <div class="row mt-4">
+                <div class="col-md-4"><img src="screenshot1.jpg" class="img-fluid rounded shadow"></div>
+                <div class="col-md-4"><img src="screenshot2.jpg" class="img-fluid rounded shadow"></div>
+                <div class="col-md-4"><img src="screenshot3.jpg" class="img-fluid rounded shadow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <!-- <section id="faq" class="container my-5">
+        <h2 class="text-center">❓ FAQ</h2>
+        <div class="accordion mt-4" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                        Pourquoi l’application affiche une erreur « Permission denied » ?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        Cela signifie que le fichier Excel est ouvert. Fermez-le avant de générer un nouveau fichier.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact" class="bg-dark text-light py-5">
+        <div class="container text-center">
+            <h2>📞 Contact</h2>
+            <p>Email : amichauxkinet@gmail.com</p>
+            <p>Téléphone : (+33) 7 83 54 14 13</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
